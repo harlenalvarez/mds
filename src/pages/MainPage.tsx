@@ -31,6 +31,7 @@ export const MainPage = () => {
         <CardActions>
           {/* <Button size="small">Visit App Store</Button> */}
           <Button size="small" onClick={() => navigateTo('/privacy/windguide')}>Privacy</Button>
+          <Button href='mailto:support@marelisdesignstudios.com?subject=Wind Guide Support'>Contact Us</Button>
         </CardActions>
       </Card>
     </Container>
